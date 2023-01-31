@@ -1,0 +1,120 @@
+.quarta-pagina {
+  height: 700px;
+  background-color: rgb(170, 116, 115);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contatto-1,
+.contatto-2 {
+  color: rgb(248, 248, 248);
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.contatto-1 {
+  margin-top: 100px;
+}
+
+.contatto-2 {
+  margin-top: 70px;
+}
+
+.form {
+  font-size: 15px;
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.riga {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.invia {
+  margin-top: 20px;
+}
+
+.button-invia {
+  border-radius: 12px;
+  border: 1px solid rgb(72, 72, 72);
+  width: 60px;
+  height: 30px;
+}
+
+.button-invia:hover {
+  background-color: rgb(208, 208, 208);
+  box-shadow: 0 0 5px rgb(248, 248, 248);
+}
+
+.mia-mail {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.mia-mail:hover {
+  cursor: pointer;
+
+  text-shadow: 0 0 5px rgb(52, 52, 52);
+}
+
+.qui {
+  color: rgb(72, 72, 72);
+  text-decoration: none;
+}
+
+.qui:hover {
+  text-shadow: 0 0 5px rgb(248, 248, 248);
+}
+
+input,
+textarea {
+  border-radius: 12px;
+  border: 1px solid rgb(72, 72, 72);
+}
+
+.social {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 95%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: none;
+}
+
+.social-icon {
+  margin-top: 20px;
+}
+
+.bi-linkedin,
+.bi-instagram,
+.bi-github,
+.bi-twitter {
+  width: 40px;
+  height: 30px;
+}
+
+.link-social-icon:link,
+.link-social-icon:visited {
+  color: rgb(39, 39, 39);
+}
+
+.link-social-icon:hover {
+  color: rgb(86, 76, 76);
+}
+
+.logo {
+  margin-top: 30px;
+  height: 30px;
+}

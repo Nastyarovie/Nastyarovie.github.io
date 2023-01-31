@@ -1,0 +1,59 @@
+.terza-pagina {
+  height: 750px;
+  background-color: rgb(248, 248, 248);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titolo-terza-pagina {
+  padding-top: 100px;
+  color: rgb(170, 116, 115);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.grid-3 {
+  margin-top: 70px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+}
+
+.progetto-1,
+.progetto-2 {
+  height: 390px;
+}
+
+.img-fluid {
+  width: 540px;
+  height: 300px !important;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.figure-img:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+@media (min-width: 200px) and (max-width: 550px) {
+  .terza-pagina {
+    height: 1100px;
+  }
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+} 
+
+@media (min-width: 551px) and (max-width: 1200px) {
+  .terza-pagina {
+    height: 1060px;
+  }
+  .grid-3 {
+    grid-template-columns: 1fr;}
+}

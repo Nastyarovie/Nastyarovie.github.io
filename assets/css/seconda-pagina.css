@@ -1,0 +1,129 @@
+.seconda-pagina {
+  height: 750px;
+  background-color: rgb(170, 116, 115);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+}
+
+.titolo-seconda-pagina {
+  padding-top: 100px;
+  color: rgb(248, 248, 248);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.paragrafo-1,
+.paragrafo-2,
+.paragrafo-3 {
+  margin-top: -10px;
+  width: 360px;
+  height: 380px;
+
+  border: 1px solid rgb(248, 248, 248);
+  border-radius: 15px;
+
+  color: rgb(248, 248, 248);
+  font-weight: 300;
+}
+
+
+
+.paragrafo-1 {
+  padding: 23px 10px 0px 10px;
+  text-align: center;
+}
+
+.paragrafo-2 {
+  padding-top: 43px;
+  margin-top: 20px;
+}
+
+.paragrafo-3 {
+  padding-top: 83px;
+  text-align: center;
+}
+
+.freccia1 {
+  transform: rotate(65deg);
+
+  margin-top: 60px;
+  margin-right: 390px;
+  margin-bottom: -10px;
+}
+
+.freccia2 {
+  transform: scaleX(-1) rotate(-110deg);
+  margin-left: 420px;
+  margin-top: -15px;
+}
+
+p {
+  margin-bottom: 0 !important; 
+}
+
+ul {
+  padding-left: 0 !important;
+}
+
+li {
+  text-align: left;
+}
+
+.li-skill-1 {
+  padding-left: 120px;
+}
+
+.li-skill-2 {
+  padding-left: 110px;
+}
+
+span {
+  font-weight: 600;
+} 
+
+
+
+@media (min-width: 200px) and (max-width: 550px) {
+  .seconda-pagina {
+    height: 1500px;
+  }
+  .paragrafo-3 {
+    margin-top: 22px;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .freccia1,
+  .freccia2 {
+    height: 0px;
+  }
+} 
+
+@media (min-width: 551px) and (max-width: 1200px) {
+  .seconda-pagina {
+    height: 1100px;
+  }
+  .paragrafo-2 {
+    margin-top: 210px;
+  }
+  .paragrafo-3 {
+    margin-top: -180px; 
+  }
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .freccia1,
+  .freccia2 {
+    height: 0px;
+  }
+}
